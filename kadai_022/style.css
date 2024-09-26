@@ -3,9 +3,9 @@ h1 {
   color: rgb(255,255,255);
 }
 
-a:link {
+a:link, a:visited, a:hover {
   font-size: 20px;
-  color: orange;
+  color: rgb(255,255,255);
 }
 
 p {
@@ -43,7 +43,7 @@ main {
 
 h2 {
   font-size: 25px;
-  text-decoration: underline dotted 3px rgb(236,122,122);
+  text-decoration: underline 3px dotted rgb(236,122,122);
 }
 
 h2::before {
@@ -64,10 +64,6 @@ h2::before {
 footer {
   background-color: rgb(244,79,79);
   text-align: center;
-}
-
-a:link {
-  color: rgb(255,255,255);
 }
 
 a:visited {
